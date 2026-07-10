@@ -102,7 +102,7 @@
 
   /* Channel description */
   .children__9293f .topic__6ec1a {
-      color: var(--light-neon-green-color);
+      color: var(--light-neon-yellow-color);
   }
 
   .topic__6ec1a  {
@@ -587,7 +587,7 @@
 
    /* TimeStamp in messages */
   .timestamp_c19a55 time {
-    color: var(--neon-yellow-color);
+    color: var(--neon-green-color);
   }
 
    /* Messages divider bar color */
