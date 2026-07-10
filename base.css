@@ -1655,6 +1655,6 @@
   }
 
 /* Edited message label */
-  .contents_c19a55 [class*="edited_"] {
-    color: var(--neon-blue-color) !important;
-  }
+[class*="edited_"] {
+  color: rgb(114, 234, 248) !important;
+}
