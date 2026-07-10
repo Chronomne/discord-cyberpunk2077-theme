@@ -1653,3 +1653,8 @@
   .inner_e131a9 .subtext_e06aad .voiceTimer {
     color: var(--neon-yellow-color);
   }
+
+/* Edited message label */
+  .contents_c19a55 [class*="edited_"] {
+    color: var(--neon-blue-color) !important;
+  }
