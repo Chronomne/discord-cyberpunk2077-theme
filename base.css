@@ -1655,6 +1655,12 @@
   }
 
 /* Edited message label */
-[class*="edited_"] {
-  color: rgb(114, 234, 248) !important;
+span[class*="edited"],
+[class*="edited"] {
+  color: #72eaf8 !important;
+  opacity: 1 !important;
+}
+
+#app-mount {
+  outline: 4px solid cyan !important;
 }
