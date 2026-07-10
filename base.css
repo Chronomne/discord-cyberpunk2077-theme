@@ -1657,10 +1657,10 @@
 /* Edited message label */
 span[class*="edited"],
 [class*="edited"] {
-  color: #000000 !important;
+  color: #555555 !important;
   opacity: 1 !important;
 }
 
 #app-mount {
-  outline: 4px solid #000000 !important;
+  outline: 4px solid #555555 !important;
 }
