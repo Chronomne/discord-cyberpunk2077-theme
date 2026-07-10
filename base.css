@@ -1654,13 +1654,18 @@
     color: var(--neon-yellow-color);
   }
 
+:root {
+  --edited-label-color: #666666;
+}
+
 /* Edited message label */
 span[class*="edited"],
 [class*="edited"] {
-  color: #555555 !important;
+  color: var(--edited-label-color) !important;
+  -webkit-text-fill-color: var(--edited-label-color) !important;
   opacity: 1 !important;
 }
 
 #app-mount {
-  outline: 4px solid #555555 !important;
+  outline: 4px solid var(--edited-label-color) !important;
 }
