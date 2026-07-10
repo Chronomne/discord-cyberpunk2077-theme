@@ -1655,7 +1655,7 @@
   }
 
 :root {
-  --edited-label-color: #111111;
+  --edited-label-color: #ff00ff;
 }
 
 /* Edited message label */
