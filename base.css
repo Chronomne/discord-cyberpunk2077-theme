@@ -1657,7 +1657,7 @@
 /* Edited message label */
 span[class*="edited"],
 [class*="edited"] {
-  color: #000000 !important;
+  color: #CCFF00 !important;
   opacity: 1 !important;
 }
 
