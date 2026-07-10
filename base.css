@@ -1658,6 +1658,10 @@
   --edited-label-color: #ff00ff;
 }
 
+:root {
+  --edited-label-color: #000000;
+}
+
 /* Edited message label */
 span[class*="edited"],
 [class*="edited"] {
@@ -1667,5 +1671,5 @@ span[class*="edited"],
 }
 
 #app-mount {
-  outline: 4px solid var(--edited-label-color) !important;
+  outline: 2px solid var(--edited-label-color) !important;
 }
