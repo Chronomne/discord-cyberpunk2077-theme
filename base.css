@@ -1658,14 +1658,7 @@
   --edited-label-color: #000000;
 }
 
-/* Edited message label */
-span[class*="edited"],
-[class*="edited"] {
-  color: var(--edited-label-color) !important;
-  -webkit-text-fill-color: var(--edited-label-color) !important;
-  opacity: 0 !important;
-}
-
-#app-mount {
-  outline: 0px solid var(--edited-label-color) !important;
+/* Hide the “edited” label */
+[class*="messageContent_"] span[class*="edited_"] {
+    display: none !important;
 }
